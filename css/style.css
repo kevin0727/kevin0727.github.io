@@ -55,7 +55,7 @@ section{
 .textos>figure>img{
     width: 275px;
     height: 250px;
-    border-radius: 20%;
+    border-radius: 10%;
     box-shadow: 1px 1px 3px darkgray;
 }
 
@@ -90,7 +90,7 @@ section{
     padding: 2px;
     border-radius:5px;
 }
-.ver-mas a {
+.ver-mas p {
     color: white;
     font-weight: bold;
     padding: 0 20px;
