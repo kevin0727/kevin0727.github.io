@@ -6,16 +6,15 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
     width: 920px;
     margin: auto;  
 }
+.text-center {
+    text-align: center;
+}
 
 #titulos h1 { font-size: 1.5em; }
 #titulos h2 { font-size: 1.2em; }
 #titulos h3 { font-size: 0.9em; }
 #titulos h4 { font-size: 0.8em; }
 
-h1,h2,h3,h3{
-    font: Trajan-Pro-Bold;
-    
-}
 
 #encabezado {
     display: flex;
@@ -30,6 +29,9 @@ h1,h2,h3,h3{
     display: flex;
     height: 50px;
     justify-content: center;
+    background-image: url('../images/fondo_menu.png');
+    background-position: center;
+    align-items: center;
 }
 
 #barra-nav ul li{
@@ -38,13 +40,87 @@ h1,h2,h3,h3{
 }
 
 #barra-nav a {
-    background-color: darkgray;
     text-decoration: none;
     padding: 5px 10px;
     color: black;
     transition: .75s;
-    margin: -5px;
+    margin: -2px;
+    border border-radius: 3px;
 }
-#barra-nav a:hover{
-    background-color: lightgray;
+
+section{
+    display: flex;
+    margin-top: 30px;
 }
+
+.textos>figure>img{
+    width: 275px;
+    height: 250px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 3px darkgray;
+}
+
+.contenido {
+    display: inline-block;
+    text-align: justify;
+    padding: 0 30px;
+    
+}
+.contenido h1{
+    margin-bottom: 20px;
+}
+
+.contenido a{
+    color: #b92025;
+    text-decoration: none;
+}
+
+.contenido a:hover {
+    text-decoration: underline;
+}
+
+.ver-mas {
+    margin: 0;
+    padding: 3px;
+    background-color: #b92025;
+    display: inline-block;
+    border-radius: 5px;
+}
+.ver-mas div {
+    border: 1px solid white;
+    padding: 2px;
+    border-radius:5px;
+}
+.ver-mas a {
+    color: white;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+#politicas {
+    border-bottom: 3px double lightgray;
+    border-top: 3px double lightgray;
+    padding: 5px;
+    text-align: center;
+}
+.separador-sems {
+    padding: 5px 0;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.separador-sems a::before, .separador-sems a::after {
+    content: "";
+    border-top: 3px double lightgray;
+    width: 340px;
+    position: absolute;
+    top: 35px;
+}
+.separador-sems a::after {
+    right: 0;
+}
+.separador-sems a::before {
+    left: 0;
+}
+
