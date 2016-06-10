@@ -76,6 +76,7 @@ section{
 
 .contenido a:hover {
     text-decoration: underline;
+    color: #03114d;
 }
 
 .ver-mas {
@@ -84,12 +85,18 @@ section{
     background-color: #b92025;
     display: inline-block;
     border-radius: 5px;
+    transition: .5s;
+}
+
+.ver-mas:hover{
+    background-color: #03114d;
 }
 .ver-mas div {
     border: 1px solid white;
     padding: 2px;
     border-radius:5px;
 }
+
 .ver-mas p {
     color: white;
     font-weight: bold;
