@@ -47,9 +47,9 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
     border border-radius: 3px;
 }
 
-section{
+.textos{
     display: flex;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .textos>figure>img{
@@ -103,11 +103,11 @@ section{
     padding: 0 20px;
 }
 
-#politicas {
+#politicas{
     border-bottom: 3px double lightgray;
     border-top: 3px double lightgray;
     padding: 5px;
-    text-align: center;
+    text-align:center;
 }
 .separador-sems {
     padding: 5px 0;
@@ -128,5 +128,9 @@ section{
 }
 .separador-sems a::before {
     left: 0;
+}
+
+a>.ver-mas {
+    margin-top: 20px;
 }
 
